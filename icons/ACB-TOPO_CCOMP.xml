@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CloudCompare>
+    <ColorScale version="1">
+        <Properties>
+            <name>Topo landserf_ACB</name>
+            <uuid>{35b0dac8-3036-4d1b-934c-3796f0cc6cca}</uuid>
+            <absolute>0</absolute>
+        </Properties>
+        <Data>
+            <step r="85" g="0" b="255" pos="0"/>
+            <step r="111" g="222" b="37" pos="0.364806866953"/>
+            <step r="109" g="158" b="93" pos="0.660944206009"/>
+            <step r="255" g="255" b="127" pos="0.778969957082"/>
+            <step r="194" g="108" b="54" pos="0.862660944206"/>
+            <step r="85" g="63" b="50" pos="0.942060085837"/>
+            <step r="255" g="255" b="255" pos="1"/>
+        </Data>
+    </ColorScale>
+</CloudCompare>
