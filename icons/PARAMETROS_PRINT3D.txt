@@ -1,0 +1,32 @@
+{
+    "layer": "C:/Users/anton/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins/acb_dem/QGIS_MODELO\\ACB-CAPAS/ACB_DEM_PDAL/DEM_PDAL_FILL.tif",
+    "roi_x_max": 432200.353401577,
+    "roi_x_min": 431378.497558461,
+    "roi_y_max": 4553990.68371477,
+    "roi_y_min": 4553257.42242355,
+    "roi_rect_Param": {
+        "center": [
+            431789.42548001895,
+            4553624.053069159
+        ],
+        "width": 821.8558431160054,
+        "height": 733.2612912198529,
+        "rotation": 0
+    },
+    "spacing_mm": 0.2,
+    "height": 122.21,
+    "width": 136.98,
+    "z_scale": 1.5,
+    "has_borders": true,
+    "borders": 0.0,
+    "scale": 6000.0,
+    "scale_h": 6000.0,
+    "scale_w": 6000.0,
+    "z_inv": false,
+    "z_base": 940.0,
+    "divideRow": 1,
+    "divideCols": 1,
+    "projected": true,
+    "crs_layer": "+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +vunits=m +no_defs +type=crs",
+    "crs_map": "+proj=utm +zone=30 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs"
+}
