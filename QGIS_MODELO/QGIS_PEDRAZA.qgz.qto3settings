@@ -1,0 +1,743 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": [
+        {
+          "enabled": true,
+          "keyframes": [
+            {
+              "camera": {
+                "fx": 431789.3423623694,
+                "fy": 4553636.552772144,
+                "fz": 1067.214096069336,
+                "x": 431789.3423623694,
+                "y": 4553099.140569899,
+                "z": 1425.488897565773
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 2,
+              "name": "keyframe 1",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431789.3423623694,
+                "fy": 4553636.552772144,
+                "fz": 1067.214096069336,
+                "x": 432345.69536141027,
+                "y": 4553237.040235102,
+                "z": 1286.7943253425422
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 2",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 432544.85401951056,
+                "y": 4553652.098129985,
+                "z": 1257.3913059423342
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 3",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 432322.7120553095,
+                "y": 4554163.32050069,
+                "z": 1295.8069163675832
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 4",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 431724.764118097,
+                "y": 4554378.058102969,
+                "z": 1261.1110214198513
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 5",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 431140.42171607504,
+                "y": 4553946.995322275,
+                "z": 1157.1762316838551
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 6",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 431592.5802361697,
+                "y": 4553281.341584756,
+                "z": 1225.5951668865125
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 7",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 432277.3227127376,
+                "y": 4553540.462807324,
+                "z": 1244.1298482529805
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 8",
+              "type": 128
+            },
+            {
+              "camera": {
+                "fx": 431841.2037922312,
+                "fy": 4553685.617121517,
+                "fz": 1067.214096069336,
+                "x": 432102.15569865325,
+                "y": 4554098.837568897,
+                "z": 1205.2086446544524
+              },
+              "delay": 0,
+              "duration": 2000,
+              "easing": 1,
+              "name": "keyframe 9",
+              "type": 128
+            }
+          ],
+          "name": "Group",
+          "type": 64
+        }
+      ]
+    },
+    "layers": {
+      "CIUDADES_b0f26f62_e64d_4024_af72_e0d745c0d8bd": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_CC_HILLSHADE_tif_6cf9f5e5_44d7_4161_bf88_5e7978182b7a": {
+        "enabled": true,
+        "groups": []
+      },
+      "DEM_CC_tif_eef341a9_e511_46d8_a2b6_0a384e5c428d": {
+        "enabled": true,
+        "groups": []
+      },
+      "DSM_CCOMP_HILLSHADE_tif_11d5ab19_4fd6_4b31_975b_f53c32bc9a31": {
+        "enabled": true,
+        "groups": []
+      },
+      "DSM_CC_tif_e334117c_e5ed_43e2_b9b6_44583da31429": {
+        "enabled": true,
+        "groups": []
+      },
+      "EDIFICIOS_CC_0f7a5b35_d46f_4b20_918f_e6cd370586f2": {
+        "enabled": true,
+        "groups": []
+      },
+      "EDIFICIOSbyALTURA_CC_ff0fb433_3b7e_40ba_8c14_04b2d63fc011": {
+        "enabled": true,
+        "groups": []
+      },
+      "MASCARA_8a378861_851c_413c_af00_b8202a391a87": {
+        "enabled": true,
+        "groups": []
+      },
+      "PERFIL_a90b2c22_848e_4e5e_afb2_c425c2b73494": {
+        "enabled": true,
+        "groups": []
+      },
+      "PPKK_e7666762_ccd5_453d_8c9b_d04c82746d72": {
+        "enabled": true,
+        "groups": []
+      },
+      "TERRENO_EDF_CC_HILLSHADE_tif_549faf51_a6f6_4b68_85a5_7068e590f3b5": {
+        "enabled": true,
+        "groups": []
+      },
+      "TERRENO_EDIFICIOS_tif_f63b9454_6821_46e3_9b5c_29a72759a3be": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEGETACION_CC_155b8b6c_d2ad_4be1_98e2_344c0e9bf018": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEG_0a1_CC_79a51333_d35b_4cf3_9ce3_e6659753b74f": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEG_1a4_CC_0617b6bb_e576_4795_be0a_de21e47518fb": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEG_4a20_CC_bfefdb22_d51a_4457_a607_378c4cd64108": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEG_MAS20_CC_e83b0c5e_9fc2_4d4e_b1e8_4a8162df560e": {
+        "enabled": true,
+        "groups": []
+      },
+      "VEGbyALTURA_CC_b71fccd7_fe2e_4b36_a73d_d73cb90ef819": {
+        "enabled": true,
+        "groups": []
+      },
+      "VegetacionyTerreno_tif_f33621bc_6bd7_4137_9012_dce721fe5956": {
+        "enabled": true,
+        "groups": []
+      },
+      "_809b9f83_2a07_4107_8ea8_2692e025a2f7": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:5d0fa66e": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 1,
+      "layerId": "PPKK_e7666762_ccd5_453d_8c9b_d04c82746d72",
+      "name": "PPKK",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "PERFIL_a90b2c22_848e_4e5e_afb2_c425c2b73494",
+      "name": "PERFIL",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 1,
+      "layerId": "CIUDADES_b0f26f62_e64d_4024_af72_e0d745c0d8bd",
+      "name": "CIUDADES",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+      "name": "MASCARA",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_ExportAttrs": false,
+        "checkBox_Label": false,
+        "checkBox_Outline": true,
+        "checkBox_Underline": false,
+        "checkBox_Visible": true,
+        "colorButton_BgColor": [
+          255,
+          255,
+          255,
+          176
+        ],
+        "colorButton_ConnColor": [
+          192,
+          192,
+          208,
+          255
+        ],
+        "colorButton_Label": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_OtlColor": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "comboBox_FontFamily": "sans-serif",
+        "comboBox_ObjectType": "Polygon",
+        "comboBox_altitudeMode": null,
+        "comboEdit_Color": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "\"fid\"",
+          "type": 2
+        },
+        "comboEdit_Color2": {
+          "comboData": null,
+          "comboText": "None",
+          "editText": "\"fid\"",
+          "type": 7
+        },
+        "comboEdit_FilePath": {},
+        "comboEdit_Opacity": {
+          "comboData": 1,
+          "comboText": "Feature style",
+          "editText": "\"fid\"",
+          "type": 5
+        },
+        "comboEdit_altitude2": {},
+        "expression_Label": "\"fid\"",
+        "fieldExpressionWidget_altitude": "0",
+        "geomWidget0": {},
+        "geomWidget1": {},
+        "geomWidget2": {},
+        "geomWidget3": {},
+        "geomWidget4": {},
+        "groupBox_Background": true,
+        "groupBox_Conn": true,
+        "labelHeightWidget": {
+          "comboData": 1,
+          "comboText": "Relative",
+          "editText": "50",
+          "type": 6
+        },
+        "lineEdit_Name": "",
+        "mtlWidget0": {},
+        "mtlWidget1": {},
+        "radioButton_Expression": true,
+        "radioButton_IntersectingFeatures": true,
+        "slider_FontSize": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "TERRENO_EDIFICIOS_tif_f63b9454_6821_46e3_9b5c_29a72759a3be",
+      "name": "TERRENO_EDIFICIOS.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b63c42e8",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "b63c42e8",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "EDIFICIOSbyALTURA_CC_ff0fb433_3b7e_40ba_8c14_04b2d63fc011",
+      "name": "EDIFICIOSbyALTURA_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "EDIFICIOS_CC_0f7a5b35_d46f_4b20_918f_e6cd370586f2",
+      "name": "EDIFICIOS_CC",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "daf61029",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "daf61029",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "TERRENO_EDF_CC_HILLSHADE_tif_549faf51_a6f6_4b68_85a5_7068e590f3b5",
+      "name": "TERRENO_EDF_CC_HILLSHADE.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "7be0d0b8",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "7be0d0b8",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEGETACION_CC_155b8b6c_d2ad_4be1_98e2_344c0e9bf018",
+      "name": "VEGETACION_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VegetacionyTerreno_tif_f33621bc_6bd7_4137_9012_dce721fe5956",
+      "name": "VegetacionyTerreno.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2a3e768e",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "2a3e768e",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEGbyALTURA_CC_b71fccd7_fe2e_4b36_a73d_d73cb90ef819",
+      "name": "VEGbyALTURA_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEG_0a1_CC_79a51333_d35b_4cf3_9ce3_e6659753b74f",
+      "name": "VEG_0a1_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEG_1a4_CC_0617b6bb_e576_4795_be0a_de21e47518fb",
+      "name": "VEG_1a4_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEG_4a20_CC_bfefdb22_d51a_4457_a607_378c4cd64108",
+      "name": "VEG_4a20_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "VEG_MAS20_CC_e83b0c5e_9fc2_4d4e_b1e8_4a8162df560e",
+      "name": "VEG_MAS20_CC",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DSM_CC_tif_e334117c_e5ed_43e2_b9b6_44583da31429",
+      "name": "DSM_CC.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 6,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "16a5cf28",
+            "name": "map (canvas)",
+            "properties": {
+              "checkBox_Shading": true,
+              "checkBox_TransparentBackground": true,
+              "comboBox_TextureSize": "4096",
+              "radioButton_PNG": true,
+              "spinBox_Opacity": 100
+            },
+            "type": 0
+          }
+        ],
+        "mtlId": "16a5cf28",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "DSM_CCOMP_HILLSHADE_tif_11d5ab19_4fd6_4b31_975b_f53c32bc9a31",
+      "name": "DSM_CCOMP_HILLSHADE.tif",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "_809b9f83_2a07_4107_8ea8_2692e025a2f7",
+      "name": "DEM_CC.tif_CurvasNV_10",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_CC_tif_eef341a9_e511_46d8_a2b6_0a384e5c428d",
+      "name": "DEM_CC.tif",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "MASCARA_8a378861_851c_413c_af00_b8202a391a87",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "93ecd93f",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "93ecd93f",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "DEM_CC_HILLSHADE_tif_6cf9f5e5_44d7_4161_bf88_5e7978182b7a",
+      "name": "DEM_CC_HILLSHADE.tif",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:5d0fa66e",
+      "name": "Flat Plane",
+      "properties": {},
+      "visible": false
+    }
+  ],
+  "SCENE": {
+    "checkBox_FixAspectRatio": false,
+    "checkBox_Outline": true,
+    "colorButton_Color": [
+      35,
+      35,
+      35,
+      255
+    ],
+    "colorButton_Fog": [
+      255,
+      255,
+      255,
+      255
+    ],
+    "comboBox_MaterialType": 0,
+    "comboBox_xyShift": true,
+    "groupBox_Fog": false,
+    "lineEdit_CenterX": "431789.42548001895",
+    "lineEdit_CenterY": "4553624.053069159",
+    "lineEdit_Height": "700.6166666671634",
+    "lineEdit_Rotation": "0",
+    "lineEdit_Width": "809.6250000005821",
+    "lineEdit_zFactor": "1",
+    "radioButton_Color": true,
+    "radioButton_PtLight": true,
+    "slider_Fog": 41
+  },
+  "Version": 20703
+}
