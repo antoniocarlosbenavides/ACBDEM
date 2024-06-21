@@ -1,32 +1,68 @@
-Plugin Builder Results
+1	VIDEOTUTORIAL DE INSTALACIÓN
+Aunque en este manual se explican todos los pasos necesarios para la correcta instalación del plugin ACB-DEM, he creido interesante aportar una ayuda visual comentada en este videotutorial, contenido en mi canal de youtube ACB-DEM. Solo se puede acceder con los accesos directos habilitados en el propio manual o directamente en el plugin ACB-DEM. Este es el enlace al videotutorial:
+https://www.youtube.com/watch?v=pL8eoxtk5_Q
 
-Your plugin ACBDEM was created in:
-    C:/Users/anton/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins\acb_dem
+2	CONFIGURACIÓN ÓPTIMA DE LA TARJETA GRÁFICA
+Activa el botón de Inicio y teclea “configuración de gráficos”. Selecciona el icono indicado en la imagen.
+Selecciona “Examinar” y elige el programa que quieres optimizar. Al menos, conviene que selecciones CloudCompare y QGIS. Para conocer la ruta del ejecutable de cada uno de esos programas, puedes seleccionar el acceso directo del escritorio y con el botón derecho seleccionar “propiedades”. Copia la ruta (ctrl+c). Vuelve al explorador que selecciona el archivo que quieres optimizar y pega la ruta (ctrl+v).Con estos sencillos pasos, el programa se añade a la lista de aplicaciones susceptibles de mejora de rendimiento, indicando preferencia de gráfico “Alto rendimiento”. Simplemente clickea sobre un programa de la lista y en “Opciones” selecciona “Alto rendimiento”.
 
-Your QGIS plugin directory is located at:
-    C:/Users/anton/AppData/Roaming/QGIS/QGIS3/profiles/default/python/plugins
+3	INSTALACIÓN de CLOUDCOMPARE
+CloudCompare se utilizará para procesar datos LIDAR y es necesario para realizar cálculos de filtros, recorte, unión de nubes y clasificación. Por lo tanto, es fundamental que esté bien instalado y funcione correctamente. QGIS ejecutará la consola de CloudCompare en segundo plano bajo Python. Es necesario que las versiones de Qt compiladas tanto en CloudCompare como en QGIS sean muy parecidas.
+Descargar la versión más estable disponible. Una vez instalado CloudCompare, verificar  la versión de Qt compilada con CloudCompare en el menú “Acerca de”. En este caso la versión de Qt es la 5.15.2.
+Cloud Compare https://www.danielgm.net/cc/
 
-What's Next:
+4	INSTALACIÓN de QGIS y PLUGIN 
+Esta guía es para su instalación en Windows.
+Si instalamos la última versión de QGIS, la versión de Qt compilada en QGIS es la versión 5.15.13. Sin embargo, en el paso anterior, instalamos CloudCompare con la versión de Qt 15.5.2, diferente a la de QGIS y más antigua.
+Esa diferencia en las versiones compiladas de Qt impide la comunicación entre QGIS y CloudCompare a través de la consola Shell, lo que nos impedirá que el plugin ACBDEM funcione correctamente. 
+Así pues, mantenemos CloudCompare con su versión de Qt 5.15.2 y procedemos a instalar una versión más antigua de QGIS que tenga una versión de Qt Designer similar. No es preciso desinstalar la versión de QGIS ya instalada.
+QGIS con OSGeo4W https://QGIS.org/es/site/forusers/download.html
+En la web anterior, nos vamos a “Todos los Lanzamientos” y elegimos “aquí” para visualizar todas las versiones de QGIS que aún se conservan.
+ 
+Seleccionamos la versión 3.34.0 pero atención que incluya OSGeo4W, tal como indica el su nombre. 
+Conforme CloudCompare evolucione y compile con una versión superior de Qt, se podrá actualizar QGIS con una versión de Qt similar.
+Se ejecuta el archivo descargado y se sigue el proceso de instalación.
 
-  * Copy the entire directory containing your new plugin to the QGIS plugin
-    directory
+4.1	INSTALACIÓN DEL PLUGIN QGIS
+Abrimos QGIS
+Menú Complementos -> Administrar e instalar complementos, en No Instalado buscar:
+QGIS2THREEJS, instala el complemento
+PROFILE TOOL, instala el complemento
+DEMto3D, instala el complemento
 
-  * Compile the resources file using pyrcc5
+4.2	INSTALACIÓN DEL PLUGIN ACB DEM
+Si existiera una versión anterior del plugin ACB DEM instalada, desinstalarla y proceder:
 
-  * Run the tests (``make test``)
+QGIS->MENÚ-> COMPLEMENTOS->ADMINISTRAR E INSTALAR COMPLEMENTOS ->  INSTALAR A PARTIR DE ZIP. SELECCIONA EL FICHERO ZIP FACILITADO CON EL PLUGIN ACBDEM.
+ 
+Aparecerá el logo de un mapa con curvas de nivel en colores. 
+EN QGIS MENÚ COMPLEMENTOS -> ADMINISTRAR E INSTALAR COMPLEMENTOS -> PESTAÑA INSTALADOS -> SELECCIONAR ACB DEM
+Podemos acceder al plugin de dos formas diferentes. Por el Menú Complementos ACB DEM o buscando el icono de curvas de nivel en el menú de herramientas desplegado; o  directamente en la barra de menús.
+Si aparecer la interfaz gráfica del plugin, indicará que la instalación se ha realizado satisfactoriamente.
+5	CONFIGURACIÓN de QGIS
+En QGIS -> MENÚ-> VER->PANELES->ACTIVAR, AL MENOS,  CAPAS
+Activar como visible en todo momento el PANEL CAPAS
+ 
+5.1	INSTALACIÓN DE LA LIBRERÍA PDAL
+Librería PDAL (Point Data Abstraction Library) 
+ 
+Debería quedar instalada con QGIS. Para comprobar que se ha instalado PDAL al instalar OSGeo4W, se procede abriendo la consola OSGeo4W, se teclea “pdal” y se procede a la ejecución.
 
-  * Test the plugin by enabling it in the QGIS plugin manager
-
-  * Customize it by editing the implementation file: ``ACB_DEM.py``
-
-  * Create your own custom icon, replacing the default icon.png
-
-  * Modify your user interface by opening ACBDEM_dockwidget_base.ui in Qt Designer
-
-  * You can use the Makefile to compile your Ui and resource files when
-    you make changes. This requires GNU make (gmake)
-
-For more information, see the PyQGIS Developer Cookbook at:
-http://www.qgis.org/pyqgis-cookbook/index.html
-
-(C) 2011-2018 GeoApt LLC - geoapt.com
+ 
+Si aparece en consola esta información, la librería se instaló correctamente.
+Caso contrario descarga e instala: 
+4-1 https://geoinnova.org/blog-territorio/usando-la-libreria-pdal-con-archivos-LiDAR /
+ 
+5.2	INSTALACIÓN DE LIBRERÍAS DE PYTHON (SOLO EN CASO DE ERROR)
+No se precisa realizar este paso salvo que QGIS muestre un error que tenga que ver con alguna librería.
+Localiza la ruta de instalación de QGIS 3.34.0 que será algo similar a:
+C:\Program Files\QGIS 3340\bin\QGIS-bin.exe
+Podremos encontrar esta ruta hacienco click con el botón derecho sobre el archivo ejecutable de QGIS ya instalado (el de la versión más antigua) y seleccionando “Propiedades”.
+En la barra de inicio de Windows teclea “osGeo4W Shell” y ejecútalo.
+Para cambiar al directorio de tu entorno, teclea el siguiente comando:
+cd C:\Program Files\QGIS 3340\bin\      (o la ruta que corresponda)
+ 
+Luego, teclea y ejecuta  el siguiente comando para instalar el paquete deseado:
+python3 -m pip install laliberiaencuestion
+Por ejemplo, para instalar PDAL:
+python3 -m pip install pdal
