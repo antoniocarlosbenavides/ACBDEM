@@ -1,0 +1,5 @@
+<RCC>
+    <qresource prefix="/plugins/ACB_DEM" >
+        <file>icon.png</file>
+    </qresource>
+</RCC>

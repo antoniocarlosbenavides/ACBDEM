@@ -1,0 +1,6 @@
+import os
+import subprocess
+
+        ccomp="B:\Archivos de programa\CloudCompare\CloudCompare.exe"
+        ccnube="c:\ACBQGIS\QGIS_PEDRAZA\ACB-CAPAS\ACB_NUBES\NUBE.laz"
+        subprocess.Popen([ccomp,ccnube])

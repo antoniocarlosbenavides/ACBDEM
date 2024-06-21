@@ -1,0 +1,14 @@
+
+#Se guarda en la carpeta ui el archivo formulario.ui y el archivo formulario.py
+
+from .ui.formulario import FormularioBase #está importando la clase FormularioBase contenida en el formulario.ui
+
+En el ui Principal
+    def __init__(self, parent=None):
+
+        self.pbacercade.clicked.connect(self.runAbout) #asigna al boton runAbout
+
+    def runAbout(self):
+        # show the dialog
+        dlg = FormularioBase()
+        dlg.exec_()

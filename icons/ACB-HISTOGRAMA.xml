@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CloudCompare>
+    <ColorScale version="1">
+        <Properties>
+            <name>HISTOGRAMA</name>
+            <uuid>{aea68018-ae54-4843-bb4e-bda0a055b4e9}</uuid>
+            <absolute>0</absolute>
+        </Properties>
+        <Data>
+            <step r="0" g="0" b="255" pos="0"/>
+            <step r="0" g="255" b="0" pos="0.333333333333"/>
+            <step r="255" g="255" b="0" pos="0.666666666667"/>
+            <step r="255" g="0" b="0" pos="1"/>
+        </Data>
+    </ColorScale>
+</CloudCompare>
